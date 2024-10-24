@@ -1,0 +1,389 @@
+args Namespace(detectors=['BE'], filename=None, maxmsgs=None, recurse=False, sigmaonly=False, tshigh="'2028-02-08 11:41:41'", tslow='2001-02-08 11:41:41')
+__________.__                            .___        _____                           
+\______   \__| ____ _____ _______ ___.__.|   | _____/ ____\___________  ____   ____  
+ |    |  _/  |/    \\__  \\_  __ <   |  ||   |/    \   __\/ __ \_  __ \/    \ /  _ \ 
+ |    |   \  |   |  \/ __ \|  | \/\___  ||   |   |  \  | \  ___/|  | \/   |  (  <_> )
+ |______  /__|___|  (____  /__|   / ____||___|___|  /__|  \___  >__|  |___|  /\____/ 
+        \/        \/     \/       \/              \/          \/           \/        
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INPUT DATA
+	?
+	--
+	01000D60A67AED054150504C45
+	01001160A67B0504504C554D0450454152
+	01000E60A67AF9064F52414E4745
+	--
+Time Span for TS Inference is ('2001-02-08 11:41:41.000000', '2028-02-08 11:41:41.000000')
+filtering detectors to BE detectors
+----------------------------------------
+Using the following Detectors:
+boundBE BE True ['BE']
+floatBE BE True ['BE']
+BE_64BIT_NTP_SPAN_Microseconds_BE BE True ['BE']
+BE_64BIT_NTPPURE_SPAN_Microseconds_BE BE True ['BE']
+BE_64BIT_SPAN_Microseconds_BE BE True ['BE']
+BE_32BIT_SPAN_Seconds_BE BE True ['BE']
+seq8BE BE True ['BE']
+seq16BE BE True ['BE']
+seq24BE BE True ['BE']
+seq32BE BE True ['BE']
+length th False ['BE']
+length2BE BE True ['BE']
+length3BE BE True ['BE']
+length4BE BE True ['BE']
+rep_par_BE BE True ['BE']
+----------------------------------------
+
+safe
+	 ('boundBE', <function inferentropyboundBE at 0x7f3616c62320>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('floatBE', <function inferfloatBE at 0x7f3616c5f560>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('BE_64BIT_NTP_SPAN_Microseconds_BE', <function mk_ts_functions.<locals>.<lambda> at 0x7f3616c32200>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('BE_64BIT_NTPPURE_SPAN_Microseconds_BE', <function mk_ts_functions.<locals>.<lambda> at 0x7f3616c32290>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('BE_64BIT_SPAN_Microseconds_BE', <function mk_ts_functions.<locals>.<lambda> at 0x7f3616c323b0>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('BE_32BIT_SPAN_Seconds_BE', <function mk_ts_functions.<locals>.<lambda> at 0x7f3616c32560>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('seq8BE', <function <lambda> at 0x7f3616c473b0>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('seq16BE', <function <lambda> at 0x7f3616c47440>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('seq24BE', <function <lambda> at 0x7f3616c474d0>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('seq32BE', <function <lambda> at 0x7f3616c47560>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('length', <function inferlength at 0x7f368155a320>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('length2BE', <function inferlength2BE at 0x7f3616c9a950>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('length3BE', <function inferlength3BE at 0x7f3616c96a70>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+	 ('length4BE', <function inferlength4BE at 0x7f3616c94b90>, '?\n--\n01000D60A67AED054150504C45\n01001160A67B0504504C554D0450454152\n01000E60A67AF9064F52414E4745\n--')
+FIELD_|(3,3) 1.584962500721156 - 0.0 = 1.584962500721156
+	considering i 	considering i0
+	Has BE stripes 
+	r val0	considering i 0.0
+Boosting
+ 	Has BE stripes	considering i  boundBE0
+	considering i
+Boosting0
+0.0	r val 
+10.0  
+	Has BE stripes
+	Has BE stripes0.0floatBE	Has BE stripes
+
+
+
+
+0.5
+	r val	r val	considering i
+	r val   0.0 0.00.01
+0.0
+
+
+0.0
+	considering i	considering i 2
+	Has BE stripes
+	Has BE stripes	considering i 
+0.5
+ 1	r val
+	r val1
+ 0.5 
+	Has BE stripes0.0
+0.0	Has BE stripes
+
+0.5
+
+	r val	considering i
+	considering i	r val  0.5  0.03
+20.0
+0.5
+
+
+	considering i
+	r val	Has BE stripes	considering i 0.5 
+ 2
+0.0	r val2
+1.0
+ 
+	Has BE stripes
+	considering i 0.0
+0.5
+	r val	Has BE stripes4
+	considering i 
+
+0.0 
+	r val	r valBoosting0.03
+   
+	r val0.50.0
+	considering i 	considering i 
+seq8BE 0.0
+30.50.0
+3
+
+
+	r val 0.00.0	considering i
+
+0.5 
+	considering i	considering i
+4 0.5 	r val
+4	r val 
+
+0.50.0
+	r val 
+ 1.00.0
+0.5	considering i
+53
+ 	considering i1.0  	r val 5 
+BE 32BIT SPAN Seconds 2001-02-08 11:41:41.000000 to 2028-02-08 11:41:41.000000	r val
+0.05
+
+0.5
+ 	r val	considering isigmas  0.0
+0.00.5
+
+sigmas
+0.5[] 
+[]
+0.5 sigmas4 
+[]0.5
+Boosting
+
+0.5
+
+ 0.5	r val0.5 0.01.0
+BE_64BIT_NTP_SPAN_Microseconds_BE
+
+0.5
+Boosting0.5
+
+SIGMA([FIELD_L(1,3)])0.5	considering i
+ 
+ 0.5BE_64BIT_NTPPURE_SPAN_Microseconds_BE
+0.55
+
+
+Boosting
+0.5 
+0.50.5	r val
+
+0.50.5
+0.5
+ 0.00.5
+0.5BE_64BIT_SPAN_Microseconds_BE
+
+
+Boosting 
+0.5
+seq16BE	considering i
+ Boosting0.56
+ 0.5
+
+	r vallength2BE
+Boosting length3BE
+ Boosting 0.0length4BE
+
+	considering iBoosting  seq32BE7
+
+Boosting 	r vallength 
+0.0Boosting 
+seq24BE	considering i
+ 8
+	r val 1.0
+8 1.0 BE 32BIT SPAN Seconds 2001-02-08 11:41:41.000000 to 2028-02-08 11:41:41.000000
+	considering i 9
+	r val 1.0
+9 1.0 BE 32BIT SPAN Seconds 2001-02-08 11:41:41.000000 to 2028-02-08 11:41:41.000000
+sigmas [SIGMA([FIELD_T(3,7)]), SIGMA([FIELD_T(8,12)]), SIGMA([FIELD_T(9,13)])]
+Boosting BE_32BIT_SPAN_Seconds_BE
+	 ('rep_par_BE', <function rep_par_BE at 0x7f3616c22710>)
+data 9571
+	Found Sigma: SIGMA([FIELD_|(3,3)])
+	----------------------------------------------------------------------
+	?????? | ????????????????????
+	--
+	01000D | 60A67AED054150504C45
+	010011 | 60A67B0504504C554D0450454152
+	01000E | 60A67AF9064F52414E4745
+	--
+	0 ? UNKNOWN TYPE 3 BYTE(S) 9.0
+	1 ? UNKNOWN TYPE VARIABLE LENGTH 10 BYTE(S) MIN 35.0
+	Found Sigma: SIGMA([FIELD_F(4,8)])
+	----------------------------------------------------------------------
+	???????? FFFFFFFF ??????????
+	--
+	01000D60 A67AED05 4150504C45
+	01001160 A67B0504 504C554D0450454152
+	01000E60 A67AF906 4F52414E4745
+	--
+	0 ? UNKNOWN TYPE 4 BYTE(S) 12.0
+	1 F BE FLOAT MIN(-8.708991593343743E-16) MAX(-8.705739516221879E-16) MEAN(-8.707365819480607E-16) STDEV(1.6260386255662435E-19) 12.0
+	2 ? UNKNOWN TYPE VARIABLE LENGTH 5 BYTE(S) MIN 20.0
+	Found Sigma: SIGMA([FIELD_S(11,12)])
+	----------------------------------------------------------------------
+	?????????????????????? SS ??
+	--
+	01000D60A67AED05415050 4C 45
+	01001160A67B0504504C55 4D 0450454152
+	01000E60A67AF9064F5241 4E 4745
+	--
+	0 ? UNKNOWN TYPE 11 BYTE(S) 33.0
+	1 S BE SEQUENCE8(1.0) 3.0
+	2 ? UNKNOWN TYPE VARIABLE LENGTH 1 BYTE(S) MIN 8.0
+	Found Sigma: SIGMA([])
+	----------------------------------------------------------------------
+	??????????????????????????
+	--
+	01000D60A67AED054150504C45
+	01001160A67B0504504C554D0450454152
+	01000E60A67AF9064F52414E4745
+	--
+	0 ? UNKNOWN TYPE VARIABLE LENGTH 13 BYTE(S) MIN 44.0
+	Found Sigma: SIGMA([FIELD_L(1,3)])
+	----------------------------------------------------------------------
+	?? LLLL ????????????????????
+	--
+	01 000D 60A67AED054150504C45
+	01 0011 60A67B0504504C554D0450454152
+	01 000E 60A67AF9064F52414E4745
+	--
+	0 ? UNKNOWN TYPE 1 BYTE(S) 3.0
+	1 L BE UINT16 LENGTH + 0 = TOTAL MESSAGE LENGTH 6.0
+	2 ? UNKNOWN TYPE VARIABLE LENGTH 10 BYTE(S) MIN 35.0
+	Found Sigma: SIGMA([FIELD_L(2,3)])
+	----------------------------------------------------------------------
+	???? LL ????????????????????
+	--
+	0100 0D 60A67AED054150504C45
+	0100 11 60A67B0504504C554D0450454152
+	0100 0E 60A67AF9064F52414E4745
+	--
+	0 ? UNKNOWN TYPE 2 BYTE(S) 6.0
+	1 L LENGTH + 0 = TOTAL MESSAGE LENGTH 3.0
+	2 ? UNKNOWN TYPE VARIABLE LENGTH 10 BYTE(S) MIN 35.0
+	Found Sigma: SIGMA([FIELD_T(3,7)])
+	----------------------------------------------------------------------
+	?????? TTTTTTTT ????????????
+	--
+	01000D 60A67AED 054150504C45
+	010011 60A67B05 04504C554D0450454152
+	01000E 60A67AF9 064F52414E4745
+	--
+	0 ? UNKNOWN TYPE 3 BYTE(S) 9.0
+	1 T BE 32BIT SPAN SECONDS 2001-02-08 11:41:41.000000 TO 2028-02-08 11:41:41.000000 1.0 12.0
+	2 ? UNKNOWN TYPE VARIABLE LENGTH 6 BYTE(S) MIN 23.0
+	Found Sigma: SIGMA([FIELD_T(8,12)])
+	----------------------------------------------------------------------
+	???????????????? TTTTTTTT ??
+	--
+	01000D60A67AED05 4150504C 45
+	01001160A67B0504 504C554D 0450454152
+	01000E60A67AF906 4F52414E 4745
+	--
+	0 ? UNKNOWN TYPE 8 BYTE(S) 24.0
+	1 T BE 32BIT SPAN SECONDS 2001-02-08 11:41:41.000000 TO 2028-02-08 11:41:41.000000 1.0 12.0
+	2 ? UNKNOWN TYPE VARIABLE LENGTH 1 BYTE(S) MIN 8.0
+	Found Sigma: SIGMA([])
+	----------------------------------------------------------------------
+	??????????????????????????
+	--
+	01000D60A67AED054150504C45
+	01001160A67B0504504C554D0450454152
+	01000E60A67AF9064F52414E4745
+	--
+	0 ? UNKNOWN TYPE VARIABLE LENGTH 13 BYTE(S) MIN 44.0
+	Found Sigma: SIGMA([FIELD_R(7,13*)])
+	----------------------------------------------------------------------
+	?????????????? RRRRRRRRRRRR
+	--
+	01000D60A67AED 054150504C45
+	01001160A67B05 04504C554D0450454152
+	01000E60A67AF9 064F52414E4745
+	--
+	0 ? UNKNOWN TYPE 7 BYTE(S) 21.0
+	1 R 0T_1L_V_BIG* 23.0
+sigma SIGMA([FIELD_|(3,3)])
+sigma SIGMA([FIELD_F(4,8)])
+sigma SIGMA([FIELD_S(11,12)])
+sigma SIGMA([])
+sigma SIGMA([FIELD_L(1,3)])
+sigma SIGMA([FIELD_L(2,3)])
+sigma SIGMA([FIELD_T(3,7)])
+sigma SIGMA([FIELD_T(8,12)])
+sigma SIGMA([])
+sigma SIGMA([FIELD_R(7,13*)])
+
+================================================================================
+UNIFYING SIGMAS
+--------------------------------------------------------------------------------
+f.anno 1.584962500721156 - 0.0 = 1.584962500721156
+f.anno BE Float min(-8.708991593343743e-16) max(-8.705739516221879e-16) mean(-8.707365819480607e-16) stdev(1.6260386255662435e-19)
+be BE
+f.anno BE Sequence8(1.0)
+be BE
+f.anno BE uint16 Length + 0 = Total Message Length
+be BE
+f.anno Length + 0 = Total Message Length
+f.anno BE 32BIT SPAN Seconds 2001-02-08 11:41:41.000000 to 2028-02-08 11:41:41.000000 1.0
+be BE
+f.anno BE 32BIT SPAN Seconds 2001-02-08 11:41:41.000000 to 2028-02-08 11:41:41.000000 1.0
+be BE
+f.anno 0T_1L_V_big*
+len_field FIELD_L(2,3)
+len_field FIELD_L(1,3)
+sorted FIELD_L(1,3)
+NonLength Sigma SIGMA([FIELD_|(3,3)])
+NonLength Sigma SIGMA([FIELD_F(4,8)])
+NonLength Sigma SIGMA([FIELD_S(11,12)])
+NonLength Sigma SIGMA([FIELD_T(3,7)])
+NonLength Sigma SIGMA([FIELD_T(8,12)])
+NonLength Sigma SIGMA([FIELD_R(7,13*)])
+
+Length Sigma SIGMA([FIELD_L(1,3)]) ['BE uint16 Length + 0 = Total Message Length']
+Length Sigma SIGMA([FIELD_L(2,3)]) ['Length + 0 = Total Message Length']
+
+len_field FIELD_L(2,3)
+len_field FIELD_L(1,3)
+sorted FIELD_L(1,3)
+Best Length Sigma SIGMA([FIELD_L(1,3)])
+
+Do SIGMA([FIELD_|(3,3)]) and SIGMA([FIELD_L(1,3)]) intersect? False
+Do SIGMA([FIELD_F(4,8)]) and SIGMA([FIELD_L(1,3)]) intersect? False
+Do SIGMA([FIELD_S(11,12)]) and SIGMA([FIELD_L(1,3)]) intersect? False
+Do SIGMA([FIELD_T(3,7)]) and SIGMA([FIELD_L(1,3)]) intersect? False
+Do SIGMA([FIELD_T(8,12)]) and SIGMA([FIELD_L(1,3)]) intersect? False
+Do SIGMA([FIELD_R(7,13*)]) and SIGMA([FIELD_L(1,3)]) intersect? False
+
+	s0 : SIGMA([FIELD_|(3,3)]) [3.0] ['1.584962500721156 - 0.0 = 1.584962500721156']
+	s1 : SIGMA([FIELD_F(4,8)]) [12.0] ['BE Float min(-8.708991593343743e-16) max(-8.705739516221879e-16) mean(-8.707365819480607e-16) stdev(1.6260386255662435e-19)']
+	s2 : SIGMA([FIELD_S(11,12)]) [3.0] ['BE Sequence8(1.0)']
+	s3 : SIGMA([FIELD_T(3,7)]) [10.8] ['BE 32BIT SPAN Seconds 2001-02-08 11:41:41.000000 to 2028-02-08 11:41:41.000000 1.0']
+	s4 : SIGMA([FIELD_T(8,12)]) [10.8] ['BE 32BIT SPAN Seconds 2001-02-08 11:41:41.000000 to 2028-02-08 11:41:41.000000 1.0']
+	s5 : SIGMA([FIELD_R(7,13*)]) [23] ['0T_1L_V_big*']
+	s6 : SIGMA([FIELD_L(1,3)]) [0.6000000000000001] ['BE uint16 Length + 0 = Total Message Length']
+	u----------------------------------------------------------------------
+TotalValue 37.4
+f.anno BE uint16 Length + 0 = Total Message Length
+be BE
+f.anno 1.584962500721156 - 0.0 = 1.584962500721156
+f.anno BE 32BIT SPAN Seconds 2001-02-08 11:41:41.000000 to 2028-02-08 11:41:41.000000 1.0
+be BE
+f.anno 0T_1L_V_big*
+PREDICTENDIAN preBE 5 preLE 0 BE 2 LE 0 PREDICTPRE BE PREDICTFINAL BE TV 37.4
+	s  : SIGMA([FIELD_L(1,3), FIELD_|(3,3), FIELD_T(3,7), FIELD_R(7,13*)])
+
+================================================================================
+INFERRED DESCRIPTION
+--------------------------------------------------------------------------------
+
+	?? LLLL | TTTTTTTT RRRRRRRRRRRR
+	--
+	01 000D | 60A67AED 054150504C45
+	01 0011 | 60A67B05 04504C554D0450454152
+	01 000E | 60A67AF9 064F52414E4745
+	--
+	0 ? UNKNOWN TYPE 1 BYTE(S) 3.0
+	1 L BE UINT16 LENGTH + 0 = TOTAL MESSAGE LENGTH 6.0
+	2 T BE 32BIT SPAN SECONDS 2001-02-08 11:41:41.000000 TO 2028-02-08 11:41:41.000000 1.0 12.0
+	3 R 0T_1L_V_BIG* 23.0
+
+QTY SAMPLES
+3
+HEADER ONLY
+?? LLLL | TTTTTTTT RRRRRRRRRRRR
+SPECSTART
+FieldFixed 1V (Unknown Type 1 Byte(s))
+Length 2V_BE (BE uint16 Length + 0 = Total Message Length)
+FieldFixed 4V_BE (BE 32BIT SPAN Seconds 2001-02-08 11:41:41.000000 to 2028-02-08 11:41:41.000000 1.0)
+FieldRep *Q_0T_1L_1V_BE (0T_1L_V_big*)
+SPECEND

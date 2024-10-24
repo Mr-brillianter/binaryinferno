@@ -1,0 +1,16 @@
+Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
+1	:	1729772406.498	     0.032	0	835	1	0	cat tmp_par.txt | python3 trimbytes.py 0 | timeout 120s python3 rep_parallel.py --push 0 --offset 0 --shortcircuit 1 -e BE 
+2	:	1729772406.498	     0.034	0	792	1	0	cat tmp_par.txt | python3 trimbytes.py 1 | timeout 120s python3 rep_parallel.py --push 1 --offset 0 --shortcircuit 1 -e BE 
+6	:	1729772406.501	     0.032	0	620	1	0	cat tmp_par.txt | python3 trimbytes.py 5 | timeout 120s python3 rep_parallel.py --push 5 --offset 0 --shortcircuit 1 -e BE 
+13	:	1729772406.510	     0.025	0	321	1	0	cat tmp_par.txt | python3 trimbytes.py 12 | timeout 120s python3 rep_parallel.py --push 12 --offset 0 --shortcircuit 1 -e BE 
+11	:	1729772406.507	     0.029	0	407	1	0	cat tmp_par.txt | python3 trimbytes.py 10 | timeout 120s python3 rep_parallel.py --push 10 --offset 0 --shortcircuit 1 -e BE 
+4	:	1729772406.500	     0.038	0	706	1	0	cat tmp_par.txt | python3 trimbytes.py 3 | timeout 120s python3 rep_parallel.py --push 3 --offset 0 --shortcircuit 1 -e BE 
+3	:	1729772406.499	     0.042	0	749	1	0	cat tmp_par.txt | python3 trimbytes.py 2 | timeout 120s python3 rep_parallel.py --push 2 --offset 0 --shortcircuit 1 -e BE 
+5	:	1729772406.500	     0.042	0	663	1	0	cat tmp_par.txt | python3 trimbytes.py 4 | timeout 120s python3 rep_parallel.py --push 4 --offset 0 --shortcircuit 1 -e BE 
+9	:	1729772406.504	     0.039	0	491	1	0	cat tmp_par.txt | python3 trimbytes.py 8 | timeout 120s python3 rep_parallel.py --push 8 --offset 0 --shortcircuit 1 -e BE 
+10	:	1729772406.506	     0.039	0	448	1	0	cat tmp_par.txt | python3 trimbytes.py 9 | timeout 120s python3 rep_parallel.py --push 9 --offset 0 --shortcircuit 1 -e BE 
+7	:	1729772406.502	     0.042	0	577	1	0	cat tmp_par.txt | python3 trimbytes.py 6 | timeout 120s python3 rep_parallel.py --push 6 --offset 0 --shortcircuit 1 -e BE 
+12	:	1729772406.509	     0.036	0	364	1	0	cat tmp_par.txt | python3 trimbytes.py 11 | timeout 120s python3 rep_parallel.py --push 11 --offset 0 --shortcircuit 1 -e BE 
+8	:	1729772406.503	     0.042	0	2067	0	0	cat tmp_par.txt | python3 trimbytes.py 7 | timeout 120s python3 rep_parallel.py --push 7 --offset 0 --shortcircuit 1 -e BE 
+14	:	1729772406.511	     0.036	0	266	1	0	cat tmp_par.txt | python3 trimbytes.py 13 | timeout 120s python3 rep_parallel.py --push 13 --offset 0 --shortcircuit 1 -e BE 
+15	:	1729772406.527	     0.025	0	266	1	0	cat tmp_par.txt | python3 trimbytes.py 14 | timeout 120s python3 rep_parallel.py --push 14 --offset 0 --shortcircuit 1 -e BE 

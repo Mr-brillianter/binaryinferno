@@ -1,0 +1,324 @@
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=0, shortcircuit=1, txtfile=None) ###
+text2repsigs 0
+msgs 01000D60A67AED054150504C45
+01001160A67B0504504C554D0450454152
+01000E60A67AF9064F52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=1, shortcircuit=1, txtfile=None) ###
+text2repsigs 1
+msgs 000D60A67AED054150504C45
+001160A67B0504504C554D0450454152
+000E60A67AF9064F52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=5, shortcircuit=1, txtfile=None) ###
+text2repsigs 5
+msgs 7AED054150504C45
+7B0504504C554D0450454152
+7AF9064F52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=12, shortcircuit=1, txtfile=None) ###
+text2repsigs 12
+msgs 45
+0450454152
+4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=10, shortcircuit=1, txtfile=None) ###
+text2repsigs 10
+msgs 504C45
+554D0450454152
+414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=3, shortcircuit=1, txtfile=None) ###
+text2repsigs 3
+msgs 60A67AED054150504C45
+60A67B0504504C554D0450454152
+60A67AF9064F52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=2, shortcircuit=1, txtfile=None) ###
+text2repsigs 2
+msgs 0D60A67AED054150504C45
+1160A67B0504504C554D0450454152
+0E60A67AF9064F52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=4, shortcircuit=1, txtfile=None) ###
+text2repsigs 4
+msgs A67AED054150504C45
+A67B0504504C554D0450454152
+A67AF9064F52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=8, shortcircuit=1, txtfile=None) ###
+text2repsigs 8
+msgs 4150504C45
+504C554D0450454152
+4F52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=9, shortcircuit=1, txtfile=None) ###
+text2repsigs 9
+msgs 50504C45
+4C554D0450454152
+52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=6, shortcircuit=1, txtfile=None) ###
+text2repsigs 6
+msgs ED054150504C45
+0504504C554D0450454152
+F9064F52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=11, shortcircuit=1, txtfile=None) ###
+text2repsigs 11
+msgs 4C45
+4D0450454152
+4E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+We have hit the shortciruit, bailing
+We have hit the shortciruit, bailing
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=7, shortcircuit=1, txtfile=None) ###
+text2repsigs 7
+msgs 054150504C45
+04504C554D0450454152
+064F52414E4745
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+[64]
+Will push 7
+Attempting to dump sol [(64, 0)]
+Attepting to convert sol to intervals
+['0T_1L_V_big*']
+(64, 0)
+Intervaling PUSHed INTERVAL_R((0, 6)) pushed to  INTERVAL_R((7, 13))
+Intervaling PUSHed INTERVAL_R((0, 10)) pushed to  INTERVAL_R((7, 17))
+Intervaling PUSHed INTERVAL_R((0, 7)) pushed to  INTERVAL_R((7, 14))
+Final Sigma SIGMA([FIELD_R(7,13*)])
+@@@ ['0T_1L_V_big*'] @@@ 0
+<<<80035d7100635369676d610a5349474d410a7101298171027d71032858060000006669656c647371045d7105635369676d610a4649454c440a7106298171077d7108285809000000696e74657276616c7371095d710a28635369676d610a494e54455256414c0a710b2981710c7d710d2858020000007479710e580100000052710f5805000000737461727471104b07580400000073746f7071114b0d5805000000776964746871124b06580500000076616c756571134b067562680b298171147d711528680e680f68104b0768114b1168124b0a68134b0a7562680b298171167d711728680e680f68104b0768114b0e68124b0768134b07756265580a000000616e6e6f746174696f6e7118580c00000030545f314c5f565f6269672a711968124b17580a00000076616c75657363616c65711a4b0168134b1758020000006964711b582400000039613730356361312d396461312d346438662d613131612d393265656433316339383439711c756261681b582400000061356465613366652d316666622d343564642d396334372d323237343030366436303432711d68134b177562612e>>>
+Dumpfunction 1 None
+FOUND A SOL [(64, 0)]
+We have hit the shortciruit, bailing
+[64]
+FOUND A SOL [(64, 0)]
+We have hit the shortciruit, bailing
+[64]
+FOUND A SOL [(64, 0)]
+We have hit the shortciruit, bailing
+[64]
+FOUND A SOL [(64, 0)]
+We have hit the shortciruit, bailing
+[64]
+FOUND A SOL [(64, 0)]
+We have hit the shortciruit, bailing
+[64]
+FOUND A SOL [(64, 0)]
+We have hit the shortciruit, bailing
+Found 1 sols
+1 [['0T_1L_V_big*']]
+Attepting to convert sol to intervals
+['0T_1L_V_big*']
+(64, 0)
+@@@ 0 1 SIGMA([FIELD_R(0,6*)]) ['0T_1L_V_big*'] @@@
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=13, shortcircuit=1, txtfile=None) ###
+text2repsigs 13
+msgs 
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+Found 0 sols
+0 []
+[SIGMA([])]
+all rep_parallel.py args parsing done
+### rep_parallel.py called with Namespace(filterrules='BE', offset=0, push=14, shortcircuit=1, txtfile=None) ###
+text2repsigs 14
+msgs 
+Calling super search w RE any
+
+USING ENDIANESS any
+
+Memos done
+Found 0 sols
+0 []
+[SIGMA([])]

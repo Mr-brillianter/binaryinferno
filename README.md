@@ -14,7 +14,36 @@
 
 * Python libraries `sklearn`, `scipy`.
 * Command line util `parallel` for serialization pattern search.
- 
+```
+conda create -n binaryinferno python=3.7
+conda activate binaryinferno
+conda install scipy scikit-learn
+apt install parallel
+```
+协议：bgp,mavlink
+DHCP (Dynamic Host Configuration Protocol)
+DHCP 是一种网络协议，用于自动分配 IP 地址、子网掩码、默认网关以及其他配置参数给局域网内的设备。DHCP 服务器负责维护一个地址池，并向请求 IP 地址的客户端分配这些地址。DHCP 可以简化网络管理，尤其是在大型网络中。
+
+DNP3 (Distributed Network Protocol)
+DNP3 是一种专为电力系统设计的通信协议，用于实现远程设备之间的可靠通信。它主要用于监控和控制工业自动化设备，特别是在电力系统、水处理设施等领域。DNP3 提供了多种服务，包括数据采集、事件记录、遥测、遥控等。
+
+SMB (Server Message Block) / SMB2
+SMB 是一种应用层网络协议，用于提供共享访问文件、打印机和其他资源的功能。SMB 最初由 IBM 开发，后来微软对其进行了改进和发展。SMB2 是 SMB 协议的一个重大更新版本，提供了更好的性能、安全性和互操作性。
+
+MAVLink
+MAVLink 是一种轻量级的消息协议，用于无人机系统之间的通信。它支持多种平台间的数据交换，包括地面站、飞行控制器、传感器等。MAVLink 消息格式紧凑高效，广泛应用于无人驾驶航空器（UAVs）的研究和开发中。
+
+Mirai
+Mirai 不是一种协议，而是一种恶意软件，以其针对物联网设备的能力而臭名昭著。Mirai 能够感染大量连接互联网但缺乏安全措施的设备，形成僵尸网络，进而发动大规模分布式拒绝服务攻击（DDoS）。Mirai 通常利用默认用户名和密码来感染设备。
+
+MODBUS
+MODBUS 是一种串行通信协议，用于连接工业电子设备，使其能够相互通信。它最初由 Modicon（现在的施耐德电气）公司为可编程逻辑控制器（PLCs）设计，现在广泛用于工业控制系统中，支持多种传输模式，包括 RS-232、RS-485 和 TCP/IP。
+
+NTP (Network Time Protocol)
+NTP 用于在分布式网络环境中同步计算机时钟的时间。它是一个基于 UDP 协议的客户端/服务器模式的应用层协议。NTP 的设计目的是尽量减少时钟同步的网络延迟，并提供高精度的时间同步。
+
+这些协议各自服务于不同的应用场景和技术领域，从网络时间同步到工业自动化控制都有涉及。了解这些协议的基本概念有助于在网络管理和安全方面做出正确的决策。
+
 # Usage 
 
 BinaryInferno takes messages to reverse engineer on stdin. One message per line in Hex format.  Here's the example we use in the paper.
